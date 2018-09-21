@@ -1,6 +1,6 @@
 {
   "name": "node-mongo-demo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node demo showing how to store data into a MongoDB database",
   "main": "app.js",
   "scripts": {
