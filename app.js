@@ -9,7 +9,7 @@ mongoose.connect("mongodb://localhost:27017/node-demo");
 var User = require('./models/user');
 
 app.get("/", (req, res) => {
-  res.send("Hello world");
+  res.send("Hello world again");
 });
 
 app.post("/addname", (req, res) => {

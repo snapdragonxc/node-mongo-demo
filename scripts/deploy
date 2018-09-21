@@ -4,3 +4,4 @@ echo 'pulling files from github'
 cd ./node-mongo-demo
 git pull origin master
 npm install
+pm2 restart all
