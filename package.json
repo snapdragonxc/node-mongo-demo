@@ -1,0 +1,25 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "Node demo showing how to store data into a MongoDB database",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --exit"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^4.1.2",
+    "express": "^4.14.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^4.6.7",
+    "supertest": "^3.3.0"
+  }
+}
