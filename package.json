@@ -4,6 +4,7 @@
   "description": "Node demo showing how to store data into a MongoDB database",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "PORT=3000 ./node_modules/.bin/mocha --exit"
   },
   "keywords": [
