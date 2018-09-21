@@ -1,8 +1,6 @@
 #!/bin/bash
 
 echo 'pulling files from github'
-pwd
 cd ./node-mongo-demo
-pwd
 git pull origin master
 npm install
