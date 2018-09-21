@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'pulling files from github'
+cd ./node-mongo-demo
+git pull origin master
