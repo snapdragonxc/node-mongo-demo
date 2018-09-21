@@ -33,6 +33,8 @@ app.get("/names", (req, res) => {
     });
 })
 
-app.listen(8080);
+console.log(process.env.PORT);
+
+app.listen(process.env.PORT || 8080);
 
 module.exports = app;

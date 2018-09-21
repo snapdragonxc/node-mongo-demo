@@ -2,4 +2,6 @@
 
 echo "Running test"
 
-./node_modules/.bin/mocha ./test/user.spec.js
+export PORT=3000
+
+./node_modules/.bin/mocha ./test/user.spec.js --exit
