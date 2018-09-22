@@ -5,7 +5,7 @@ var expect  = require('chai').expect;
 
 describe('GET /', function() {
   it('respond with hello world', function(done) {
-    request(app).get('/').expect('Hello world again', done);
+    request(app).get('/').expect('Hello world', done);
   });
 });
 
